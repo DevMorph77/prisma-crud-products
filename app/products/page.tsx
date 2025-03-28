@@ -32,10 +32,14 @@ export default async function Products() {
 
                 <Link
                   href={`/products/${product.id}`}
-                  className="text-blue-500 hover:text-blue-600 mt-2 inline-block"
+                  
                 >
-                  🔍 View Product
+                  <button className="btn btn-active btn-secondary">🔍 View Product</button>
+                  
+                  
                 </Link>
+
+                
               </li>
             ))}
           </ul>
